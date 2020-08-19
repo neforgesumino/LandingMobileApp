@@ -1,0 +1,72 @@
+:root {
+    --light: #ffffff;
+    --dark: #000000;
+    --blue:  #09a2c8b4;
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Spartan', sans-serif;
+    font-size:  1.2rem;
+    line-height: 1.6;
+}
+
+section {
+    background-image: url("/media/backpic.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+}
+
+.container {
+    align-self: center;
+    padding: 0 3rem;
+    padding-top: 10px;
+}
+
+.content {
+    width: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.text-light {
+    color: var(--light);
+}
+
+button {
+    background-color: var(--light);
+    color: var(--dark);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border-color: var(--blue);
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: 'Spartan';
+}
+
+.buttons {
+    padding-top: 10px;
+    padding: 1rem 2rem;
+}
+
+
+/* 
+@media (max-width: 576px) {
+    section {
+        background-image: url(/media/backpicmobile.png);
+    }
+
+
+}
+*/
